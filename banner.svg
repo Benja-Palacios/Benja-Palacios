@@ -1,0 +1,53 @@
+<svg width="1280" height="400" viewBox="0 0 1280 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .name-text { font-family: "Syne","Arial Black",sans-serif; font-weight:800; font-size:62px; fill:#e6edf3; letter-spacing:-2px; }
+      .name-accent { font-family: "Syne","Arial Black",sans-serif; font-weight:800; font-size:62px; fill:#58a6ff; letter-spacing:-2px; }
+      .mono-sm { font-family:"Space Mono","Courier New",monospace; font-size:13px; letter-spacing:2px; text-transform:uppercase; }
+      .mono-role { font-family:"Space Mono","Courier New",monospace; font-size:13px; letter-spacing:0.5px; }
+      .mono-tag { font-family:"Space Mono","Courier New",monospace; font-size:12px; font-weight:700; }
+      .mono-tiny { font-family:"Space Mono","Courier New",monospace; font-size:11px; }
+      .fade-1{animation:fadeUp .7s ease .1s both}
+      .fade-2{animation:fadeUp .7s ease .25s both}
+      .fade-3{animation:fadeUp .7s ease .38s both}
+      .fade-4{animation:fadeUp .7s ease .5s both}
+      .fade-5{animation:fadeUp .7s ease .63s both}
+      .fade-6{animation:fadeUp .7s ease .76s both}
+      @keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    </style>
+    <clipPath id="ac"><rect x="0" y="0" width="420" height="400"/></clipPath>
+    <radialGradient id="g1" cx="38%" cy="50%" r="45%"><stop offset="0%" stop-color="#58a6ff" stop-opacity=".08"/><stop offset="100%" stop-color="#0d1117" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="88%" cy="25%" r="38%"><stop offset="0%" stop-color="#3fb950" stop-opacity=".05"/><stop offset="100%" stop-color="#0d1117" stop-opacity="0"/></radialGradient>
+    <linearGradient id="lg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/><stop offset="30%" stop-color="#58a6ff" stop-opacity=".18"/><stop offset="70%" stop-color="#58a6ff" stop-opacity=".18"/><stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="ab" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#58a6ff"/><stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="af" x1="0" y1="0" x2="1" y2="0"><stop offset="60%" stop-color="#0d1117" stop-opacity="0"/><stop offset="100%" stop-color="#0d1117" stop-opacity="1"/></linearGradient>
+  </defs>
+  <rect width="1280" height="400" fill="#0d1117" rx="16"/>
+  <rect width="1280" height="400" fill="url(#g1)" rx="16"/>
+  <rect width="1280" height="400" fill="url(#g2)" rx="16"/>
+  <rect width="1280" height="400" fill="none" stroke="#1e2530" stroke-width="1" rx="16"/>
+  <image href="https://raw.githubusercontent.com/Benja-Palacios/Benja-Palacios/main/avatar.png" x="-10" y="-10" width="430" height="490" clip-path="url(#ac)" preserveAspectRatio="xMidYMin meet"/>
+  <rect x="0" y="0" width="430" height="400" fill="url(#af)"/>
+  <rect x="400" y="0" width="1" height="400" fill="url(#lg)"/>
+  <g class="fade-1"><text x="440" y="108" class="mono-sm" fill="#3fb950">›</text><text x="456" y="108" class="mono-sm" fill="#58a6ff">Ing. Desarrollo y Gestión de Software</text></g>
+  <g class="fade-2"><text x="440" y="178" class="name-text">Benjamin</text></g>
+  <g class="fade-3"><text x="440" y="240" class="name-accent">Mendoza.</text></g>
+  <g class="fade-4"><rect x="440" y="253" width="52" height="2.5" fill="url(#ab)" rx="1"/></g>
+  <g class="fade-4"><text x="440" y="276" class="mono-role" fill="#7d8590">Backend Developer  ·  <tspan fill="#3fb950">Full Stack in progress</tspan></text></g>
+  <g class="fade-5">
+    <rect x="440" y="288" width="52" height="22" rx="11" fill="rgba(88,166,255,.08)" stroke="rgba(88,166,255,.25)" stroke-width="1"/><text x="466" y="303" class="mono-tag" fill="#79b8ff" text-anchor="middle">Java</text>
+    <rect x="500" y="288" width="40" height="22" rx="11" fill="rgba(88,166,255,.08)" stroke="rgba(88,166,255,.25)" stroke-width="1"/><text x="520" y="303" class="mono-tag" fill="#79b8ff" text-anchor="middle">C#</text>
+    <rect x="548" y="288" width="94" height="22" rx="11" fill="rgba(88,166,255,.08)" stroke="rgba(88,166,255,.25)" stroke-width="1"/><text x="595" y="303" class="mono-tag" fill="#79b8ff" text-anchor="middle">JavaScript</text>
+    <rect x="650" y="288" width="62" height="22" rx="11" fill="rgba(88,166,255,.08)" stroke="rgba(88,166,255,.25)" stroke-width="1"/><text x="681" y="303" class="mono-tag" fill="#79b8ff" text-anchor="middle">jQuery</text>
+    <rect x="720" y="288" width="50" height="22" rx="11" fill="rgba(63,185,80,.08)" stroke="rgba(63,185,80,.25)" stroke-width="1"/><text x="745" y="303" class="mono-tag" fill="#56d364" text-anchor="middle">.NET</text>
+    <rect x="778" y="288" width="130" height="22" rx="11" fill="rgba(63,185,80,.08)" stroke="rgba(63,185,80,.25)" stroke-width="1"/><text x="843" y="303" class="mono-tag" fill="#56d364" text-anchor="middle">Spring Framework</text>
+    <rect x="916" y="288" width="96" height="22" rx="11" fill="rgba(63,185,80,.08)" stroke="rgba(63,185,80,.25)" stroke-width="1"/><text x="964" y="303" class="mono-tag" fill="#56d364" text-anchor="middle">Spring Boot</text>
+  </g>
+  <g class="fade-5">
+    <rect x="440" y="318" width="86" height="22" rx="11" fill="rgba(247,129,102,.08)" stroke="rgba(247,129,102,.25)" stroke-width="1"/><text x="483" y="333" class="mono-tag" fill="#ffa657" text-anchor="middle">SQL Server</text>
+    <rect x="534" y="318" width="92" height="22" rx="11" fill="rgba(247,129,102,.08)" stroke="rgba(247,129,102,.25)" stroke-width="1"/><text x="580" y="333" class="mono-tag" fill="#ffa657" text-anchor="middle">PostgreSQL</text>
+    <rect x="634" y="318" width="96" height="22" rx="11" fill="rgba(188,140,255,.08)" stroke="rgba(188,140,255,.25)" stroke-width="1"/><text x="682" y="333" class="mono-tag" fill="#c9a6ff" text-anchor="middle">Bootstrap 5</text>
+  </g>
+  <g class="fade-6"><text x="440" y="375" class="mono-tiny" fill="#30363d" font-style="italic">"Every line of code deserves a sip of coffee."</text></g>
+  <text x="1255" y="390" class="mono-tiny" fill="#1e2530" text-anchor="end">&lt;/benjamin&gt;</text>
+</svg>

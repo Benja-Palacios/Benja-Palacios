@@ -1,0 +1,76 @@
+<svg width="480" height="620" viewBox="0 0 480 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .name-text { font-family:"Syne","Arial Black",sans-serif; font-weight:800; font-size:48px; fill:#e6edf3; letter-spacing:-1.5px; }
+      .name-accent { font-family:"Syne","Arial Black",sans-serif; font-weight:800; font-size:48px; fill:#58a6ff; letter-spacing:-1.5px; }
+      .mono-sm { font-family:"Space Mono","Courier New",monospace; font-size:10px; letter-spacing:1.5px; text-transform:uppercase; }
+      .mono-role { font-family:"Space Mono","Courier New",monospace; font-size:10px; }
+      .mono-tag { font-family:"Space Mono","Courier New",monospace; font-size:10px; font-weight:700; }
+      .mono-tiny { font-family:"Space Mono","Courier New",monospace; font-size:9px; }
+      .fade-1{animation:fadeUp .7s ease .1s both}
+      .fade-2{animation:fadeUp .7s ease .25s both}
+      .fade-3{animation:fadeUp .7s ease .38s both}
+      .fade-4{animation:fadeUp .7s ease .5s both}
+      .fade-5{animation:fadeUp .7s ease .63s both}
+      .fade-6{animation:fadeUp .7s ease .76s both}
+      @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    </style>
+    <clipPath id="mac"><rect x="0" y="0" width="480" height="280"/></clipPath>
+    <radialGradient id="mg1" cx="50%" cy="40%" r="55%"><stop offset="0%" stop-color="#58a6ff" stop-opacity=".09"/><stop offset="100%" stop-color="#0d1117" stop-opacity="0"/></radialGradient>
+    <radialGradient id="mg2" cx="80%" cy="80%" r="40%"><stop offset="0%" stop-color="#3fb950" stop-opacity=".05"/><stop offset="100%" stop-color="#0d1117" stop-opacity="0"/></radialGradient>
+    <linearGradient id="maf" x1="0" y1="0" x2="0" y2="1"><stop offset="65%" stop-color="#0d1117" stop-opacity="0"/><stop offset="100%" stop-color="#0d1117" stop-opacity="1"/></linearGradient>
+    <linearGradient id="mab" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#58a6ff"/><stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="mlg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/><stop offset="30%" stop-color="#58a6ff" stop-opacity=".15"/><stop offset="70%" stop-color="#58a6ff" stop-opacity=".15"/><stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/></linearGradient>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="480" height="620" fill="#0d1117" rx="16"/>
+  <rect width="480" height="620" fill="url(#mg1)" rx="16"/>
+  <rect width="480" height="620" fill="url(#mg2)" rx="16"/>
+  <rect width="480" height="620" fill="none" stroke="#1e2530" stroke-width="1" rx="16"/>
+
+  <!-- Avatar centrado arriba, se disuelve hacia abajo -->
+  <image href="https://raw.githubusercontent.com/Benja-Palacios/Benja-Palacios/main/avatar.png"
+    x="90" y="-20" width="300" height="340"
+    clip-path="url(#mac)"
+    preserveAspectRatio="xMidYMin meet"/>
+  <rect x="0" y="0" width="480" height="280" fill="url(#maf)"/>
+
+  <!-- Línea horizontal separadora -->
+  <rect x="0" y="280" width="480" height="1" fill="url(#mlg)"/>
+
+  <!-- CONTENIDO centrado -->
+  <g class="fade-1"><text x="240" y="318" class="mono-sm" fill="#58a6ff" text-anchor="middle">› Ing. Desarrollo y Gestión de Software</text></g>
+  <g class="fade-2"><text x="240" y="368" class="name-text" text-anchor="middle">Benjamin</text></g>
+  <g class="fade-3"><text x="240" y="416" class="name-accent" text-anchor="middle">Mendoza.</text></g>
+  <g class="fade-4">
+    <rect x="216" y="426" width="48" height="2" fill="url(#mab)" rx="1"/>
+    <text x="240" y="448" class="mono-role" fill="#7d8590" text-anchor="middle">Backend Dev · <tspan fill="#3fb950">Full Stack in progress</tspan></text>
+  </g>
+
+  <!-- Tags fila 1 -->
+  <g class="fade-5">
+    <rect x="60"  y="460" width="52" height="20" rx="10" fill="rgba(88,166,255,.08)" stroke="rgba(88,166,255,.25)" stroke-width="1"/><text x="86"  y="474" class="mono-tag" fill="#79b8ff" text-anchor="middle">Java</text>
+    <rect x="120" y="460" width="36" height="20" rx="10" fill="rgba(88,166,255,.08)" stroke="rgba(88,166,255,.25)" stroke-width="1"/><text x="138" y="474" class="mono-tag" fill="#79b8ff" text-anchor="middle">C#</text>
+    <rect x="164" y="460" width="86" height="20" rx="10" fill="rgba(88,166,255,.08)" stroke="rgba(88,166,255,.25)" stroke-width="1"/><text x="207" y="474" class="mono-tag" fill="#79b8ff" text-anchor="middle">JavaScript</text>
+    <rect x="258" y="460" width="58" height="20" rx="10" fill="rgba(88,166,255,.08)" stroke="rgba(88,166,255,.25)" stroke-width="1"/><text x="287" y="474" class="mono-tag" fill="#79b8ff" text-anchor="middle">jQuery</text>
+    <rect x="324" y="460" width="46" height="20" rx="10" fill="rgba(63,185,80,.08)" stroke="rgba(63,185,80,.25)" stroke-width="1"/><text x="347" y="474" class="mono-tag" fill="#56d364" text-anchor="middle">.NET</text>
+  </g>
+
+  <!-- Tags fila 2 -->
+  <g class="fade-5">
+    <rect x="60"  y="488" width="122" height="20" rx="10" fill="rgba(63,185,80,.08)" stroke="rgba(63,185,80,.25)" stroke-width="1"/><text x="121" y="502" class="mono-tag" fill="#56d364" text-anchor="middle">Spring Framework</text>
+    <rect x="190" y="488" width="88" height="20" rx="10" fill="rgba(63,185,80,.08)" stroke="rgba(63,185,80,.25)" stroke-width="1"/><text x="234" y="502" class="mono-tag" fill="#56d364" text-anchor="middle">Spring Boot</text>
+    <rect x="286" y="488" width="82" height="20" rx="10" fill="rgba(247,129,102,.08)" stroke="rgba(247,129,102,.25)" stroke-width="1"/><text x="327" y="502" class="mono-tag" fill="#ffa657" text-anchor="middle">SQL Server</text>
+  </g>
+
+  <!-- Tags fila 3 -->
+  <g class="fade-5">
+    <rect x="60"  y="516" width="88" height="20" rx="10" fill="rgba(247,129,102,.08)" stroke="rgba(247,129,102,.25)" stroke-width="1"/><text x="104" y="530" class="mono-tag" fill="#ffa657" text-anchor="middle">PostgreSQL</text>
+    <rect x="156" y="516" width="90" height="20" rx="10" fill="rgba(188,140,255,.08)" stroke="rgba(188,140,255,.25)" stroke-width="1"/><text x="201" y="530" class="mono-tag" fill="#c9a6ff" text-anchor="middle">Bootstrap 5</text>
+  </g>
+
+  <!-- Quote -->
+  <g class="fade-6"><text x="240" y="572" class="mono-tiny" fill="#30363d" font-style="italic" text-anchor="middle">"Every line of code deserves a sip of coffee."</text></g>
+  <text x="468" y="610" class="mono-tiny" fill="#1e2530" text-anchor="end">&lt;/benjamin&gt;</text>
+</svg>
